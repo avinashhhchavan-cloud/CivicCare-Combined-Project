@@ -1,33 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// Mock team data – replace with real data or fetch from API as needed
-const teamMembers = [
-  {
-    name: 'Aarav Sharma',
-    role: 'Project Lead & UI/UX Architect',
-    avatar: '/images/team/aarav.jpg',
-    responsibilities: ['Product vision', 'Design system', 'Stakeholder communication']
-  },
-  {
-    name: 'Priya Patel',
-    role: 'Full‑Stack Engineer',
-    avatar: '/images/team/priya.jpg',
-    responsibilities: ['API integration', 'State management', 'Performance optimization']
-  },
-  {
-    name: 'Rohan Iyer',
-    role: 'Backend Engineer',
-    avatar: '/images/team/rohan.jpg',
-    responsibilities: ['Database schema', 'Auth & security', 'Server‑side logic']
-  },
-  {
-    name: 'Sneha Mahajan',
-    role: 'DevOps & CI/CD',
-    avatar: '/images/team/sneha.jpg',
-    responsibilities: ['Infrastructure', 'Deploy pipeline', 'Monitoring & alerts']
-  }
-];
+// Team data imported from JSON
+import teamData from '../../team/teamData.json';
+const teamMembers = teamData;
 
 export default function TeamPage() {
   return (
@@ -39,7 +15,7 @@ export default function TeamPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-space-lg">
         {teamMembers.map((member) => (
           <article key={member.name} className="flex gap-space-md p-space-md bg-surface-container-low rounded shadow-sm border border-surface-container">
-            <img src={member.avatar} alt={member.name} className="w-24 h-24 rounded-full object-cover border-2 border-primary" />
+            {member.avatar && (<img src={member.avatar} alt={member.name} className="w-24 h-24 rounded-full object-cover border-2 border-primary" />)}
             <div className="flex flex-col justify-between">
               <div>
                 <h2 className="font-headline-sm text-headline-sm text-on-surface">{member.name}</h2>

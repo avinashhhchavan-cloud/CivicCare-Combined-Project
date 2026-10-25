@@ -57,20 +57,14 @@ npm run preview
 2. Create a feature branch.
 3. Ensure `npm run lint` passes (if linting is added).
 4. Open a Pull Request.
+## Team & Work Distribution
 
-## Team
+**CivicCare Project Team – RedField**
 
-| Name | Role | Responsibilities |
-|------|------|-------------------|
-| Aarav Sharma | Project Lead & UI/UX Architect | Product vision, Design system, Stakeholder communication |
-| Priya Patel | Full‑Stack Engineer | API integration, State management, Performance optimization |
-| Rohan Iyer | Backend Engineer | Database schema, Auth & security, Server‑side logic |
-| Sneha Mahajan | DevOps & CI/CD | Infrastructure, Deploy pipeline, Monitoring & alerts |
-
-# Team Page
-
-The **Team** page provides an overview of the team members and their responsibilities.
-Access it at: [/team](http://localhost:5173/team) (during development) or the deployed site.
+- **Avinash Chavan** – Backend and Databases
+- **Parth Sutar** – EDADV Datasets and Data Visualization
+- **Karim Maujwar** – Frontend Design and Development
+- **Yuvraj Gaur** – Datasets and Designs for Frontend Development
 
 ## License
 MIT © CivicCare Team

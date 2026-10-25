@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Avinash Chavan",
+    "role": "Backend and Databases",
+    "avatar": "/images/team/avinash.jpg",
+    "responsibilities": ["Database design", "API development", "Server maintenance"]
+  },
+  {
+    "name": "Parth Sutar",
+    "role": "EDADV Datasets and Data Visualization",
+    "avatar": "/images/team/parth.jpg",
+    "responsibilities": ["Data collection", "Visualization dashboards", "Data analysis"]
+  },
+  {
+    "name": "Karim Maujwar",
+    "role": "Frontend Design and Development",
+    "avatar": "/images/team/karim.jpg",
+    "responsibilities": ["UI/UX implementation", "React development", "Component library"]
+  },
+  {
+    "name": "Yuvraj Gaur",
+    "role": "Datasets and Designs for Frontend Development",
+    "avatar": "/images/team/yuvraj.jpg",
+    "responsibilities": ["Asset creation", "Design system", "Graphic resources"]
+  }
+]
