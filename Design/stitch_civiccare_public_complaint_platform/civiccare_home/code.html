@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary-container": "#57657a", "on-primary-fixed": "#1c1b1b", "on-secondary": "#ffffff", "on-primary": "#ffffff", "on-primary-container": "#858383", "surface": "#f9f9f9", "on-primary-fixed-variant": "#474646", "secondary-fixed-dim": "#b9c7df", "on-secondary-fixed-variant": "#3a485b", "surface-container-lowest": "#ffffff", "primary-container": "#1c1b1b", "on-tertiary-container": "#868381", "secondary-container": "#d5e3fc", "surface-container-highest": "#e2e2e2", "on-secondary-fixed": "#0d1c2e", "error-container": "#ffdad6", "tertiary-fixed-dim": "#cac6c3", "on-surface": "#1a1c1c", "inverse-on-surface": "#f1f1f1", "on-tertiary-fixed": "#1d1b1a", "secondary": "#515f74", "surface-container": "#eeeeee", "error": "#ba1a1a", "outline-variant": "#c4c7c7", "primary-fixed-dim": "#c8c6c5", "surface-container-low": "#f3f3f3", "background": "#f9f9f9", "inverse-surface": "#2f3131", "on-error": "#ffffff", "on-background": "#1a1c1c", "surface-bright": "#f9f9f9", "surface-container-high": "#e8e8e8", "secondary-fixed": "#d5e3fc", "on-tertiary": "#ffffff", "tertiary-fixed": "#e6e1df", "inverse-primary": "#c8c6c5", "on-error-container": "#93000a", "surface-dim": "#dadada", "on-surface-variant": "#444748", "tertiary-container": "#1d1b1a", "surface-variant": "#e2e2e2", "surface-tint": "#5f5e5e", "on-tertiary-fixed-variant": "#484645", "outline": "#747878", "primary-fixed": "#e5e2e1", "tertiary": "#000000", "primary": "#000000" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-md": "1rem", "gutter-desktop": "1.5rem", "space-lg": "1.5rem", "space-xl": "2rem", "margin-desktop": "2rem", "margin": "1rem", "margin-tablet": "1.5rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "gutter": "1rem" }, "fontFamily": { "headline-sm": ["Inter"], "body-sm": ["Inter"], "headline-md": ["Inter"], "tabular-stat": ["Inter"], "label-sm": ["Inter"], "label-md": ["Inter"], "headline-xl-mobile": ["Inter"], "headline-lg": ["Inter"], "body-lg": ["Inter"], "headline-xl": ["Inter"], "label-lg": ["Inter"], "body-md": ["Inter"], "headline-lg-mobile": ["Inter"] }, "fontSize": { "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "tabular-stat": ["28px", { "lineHeight": "32px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter-desktop max-w-[1600px] mx-auto flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="CivicCare Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VduZ4AHSRAe1dsSJHWYmqNfyEvfX1WSVG6UUvlL4LC1Jv8KcGN0o08VRDHWREMH4guBeJe-SYtRMm1z72ETY8x2Mxdj0RaAq7f4HklmbUP6ltvYOZ5l-DaBDJLVKf9GM3oc1Mw7e2VH-Ywty-_VXgr5uTTwyd2rnUIqxAmsAeI8H9XLVBxs6sY-pEd1q7B-6xoarzT-PEoGBEIAj_6mfOe3Dx8K4RCqJlabBMtWuNx"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight uppercase">CivicCare</span></a><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-on-surface font-semibold"><a aria-current="page" class="px-space-sm py-space-xs rounded transition-colors bg-surface-container text-on-surface font-semibold" data-path="home" href="#">Home</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="report-an-issue" href="#">Report an Issue</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="track-complaint" href="#">Track Complaint</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="explore-issues" href="#">Explore Issues</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="analytics" href="#">Analytics</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="admin-access" href="#">Admin Access</a></nav></div><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center justify-center h-9 px-space-md bg-surface-container-low text-on-surface hover:bg-surface-container font-label-md text-label-md rounded transition-colors" data-path="login" href="#">Login</a><a class="inline-flex items-center justify-center h-9 px-space-md bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded transition-colors tracking-wide" data-path="report-an-issue" href="#">Report a Problem</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]"><div class="flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative w-full px-gutter-desktop max-w-[1600px] mx-auto pt-space-xl pb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<!-- Left Copy Column -->
+<div class="lg:col-span-6 flex flex-col items-start space-y-space-md">
+<!-- Eyebrow Pill -->
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          A Better Way to Improve Our Cities
+        </div>
+<!-- Headline -->
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+          Your City. Your Voice. Real Change.
+        </h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+          A transparent municipal complaint resolution platform. Report civic issues, monitor department workflows in real time, and analyze community trends.
+        </p>
+<!-- CTA Action Group -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs w-full sm:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center h-11 px-space-lg bg-primary text-on-primary hover:bg-primary-container font-label-lg text-label-lg rounded shadow-sm transition-all group" data-path="report-an-issue" href="#">
+            Report a Problem
+            <span class="material-symbols-outlined ml-space-xs text-[18px] group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center h-11 px-space-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container font-label-lg text-label-lg rounded shadow-sm transition-all" data-path="track-complaint" href="#">
+<span class="material-symbols-outlined mr-space-xs text-[18px] text-on-surface-variant">search</span>
+            Track a Complaint
+          </a>
+</div>
+<!-- Quick Telemetry Micro-Pill -->
+<div class="flex items-center gap-space-md pt-space-sm text-on-surface-variant">
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">verified_user</span>
+<span>Zero-Trust Civic Auditing</span>
+</div>
+<span class="text-outline-variant font-light">•</span>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">bolt</span>
+<span>Real-time SMS & Web Dispatch</span>
+</div>
+</div>
+</div>
+<!-- Right Visual Dashboard Showcase -->
+<div class="lg:col-span-6 relative mt-space-md lg:mt-0">
+<!-- Dashboard Mock Card with Tonal Depth -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md relative overflow-hidden">
+<!-- Mock Header Bar -->
+<div class="flex items-center justify-between pb-space-sm mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-surface-container-highest"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-surface-container-highest"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-surface-container-highest"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-space-xs uppercase">CIVIC-CAD v3.2 // LIVE FEED</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">
+                ZONE: SOLAPUR METRO
+              </span>
+</div>
+</div>
+<!-- Interactive Monochromatic Geospatial & Incident Preview -->
+<div class="relative w-full h-[320px] bg-surface-container-low rounded flex items-center justify-center overflow-hidden">
+<!-- Vector Grid Background Pattern -->
+<svg class="absolute inset-0 w-full h-full text-surface-container-high opacity-70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="32" id="grid-pattern" patternunits="userSpaceOnUse" width="32">
+<path d="M 32 0 L 0 0 0 32" fill="none" stroke="currentColor" stroke-width="0.8"></path>
+</pattern>
+</defs>
+<rect fill="url(#grid-pattern)" height="100%" width="100%"></rect>
+<!-- Municipal Transit / Arteries Outline Simulation -->
+<path d="M -20,160 C 120,130 220,240 400,180 S 560,90 700,120" stroke="currentColor" stroke-dasharray="4 2" stroke-width="2.5"></path>
+<path d="M 180,-10 C 220,120 300,180 340,340" stroke="currentColor" stroke-width="2"></path>
+<circle cx="280" cy="190" r="48" stroke="currentColor" stroke-dasharray="2 3" stroke-width="1.2"></circle>
+</svg>
+<!-- Incident Radar Marker 1 -->
+<div class="absolute top-12 left-1/4 group cursor-pointer">
+<div class="relative flex items-center justify-center">
+<span class="animate-ping absolute inline-flex h-7 w-7 rounded-full bg-primary opacity-20"></span>
+<span class="relative flex items-center justify-center w-6 h-6 rounded-full bg-primary text-on-primary text-[10px] font-bold">1</span>
+</div>
+<div class="absolute left-8 -top-3 hidden group-hover:flex flex-col bg-surface-container-lowest p-space-xs rounded shadow-lg min-w-[160px] z-20">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">CC-2026-0841</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pothole • In Progress</span>
+</div>
+</div>
+<!-- Incident Radar Marker 2 -->
+<div class="absolute bottom-16 right-1/3 group cursor-pointer">
+<div class="relative flex items-center justify-center">
+<span class="relative flex items-center justify-center w-6 h-6 rounded-full bg-surface-container-highest text-on-surface font-bold text-[10px]">2</span>
+</div>
+<div class="absolute -right-2 top-8 hidden group-hover:flex flex-col bg-surface-container-lowest p-space-xs rounded shadow-lg min-w-[170px] z-20">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">CC-2026-0839</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sanitation • Resolved</span>
+</div>
+</div>
+<!-- Incident Radar Marker 3 -->
+<div class="absolute top-20 right-16 group cursor-pointer">
+<div class="relative flex items-center justify-center">
+<span class="relative flex items-center justify-center w-6 h-6 rounded-full bg-surface-container-highest text-on-surface font-bold text-[10px]">3</span>
+</div>
+<div class="absolute right-8 -top-2 hidden group-hover:flex flex-col bg-surface-container-lowest p-space-xs rounded shadow-lg min-w-[170px] z-20">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">CC-2026-0835</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Electrical • Under Review</span>
+</div>
+</div>
+<!-- Overlaid Live Telemetry HUD -->
+<div class="absolute bottom-3 left-3 bg-surface-container-lowest/95 backdrop-blur px-space-sm py-space-xs rounded shadow-sm flex items-center gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface">Dispatcher Queue: ACTIVE</span>
+</div>
+<span class="text-outline-variant">|</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">LAT: 17.6599° N</span>
+</div>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/95 backdrop-blur px-space-sm py-space-xs rounded shadow-sm text-right">
+<div class="font-label-sm text-label-sm uppercase text-on-surface-variant">Avg Triage Speed</div>
+<div class="font-tabular-stat text-headline-sm text-on-surface">18.4m</div>
+</div>
+</div>
+<!-- Bottom Micro Stats Stream -->
+<div class="grid grid-cols-3 gap-space-xs pt-space-sm mt-space-xs text-center">
+<div class="p-space-xs bg-surface-container rounded">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Current Shift</p>
+<p class="font-label-md text-label-md text-on-surface font-bold mt-0.5">38 Field Crews</p>
+</div>
+<div class="p-space-xs bg-surface-container rounded">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Clearance SLA</p>
+<p class="font-label-md text-label-md text-on-surface font-bold mt-0.5">94.2% On-Target</p>
+</div>
+<div class="p-space-xs bg-surface-container rounded">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Audited By</p>
+<p class="font-label-md text-label-md text-on-surface font-bold mt-0.5">Citizens & Depts</p>
+</div>
+</div>
+</div>
+<!-- Layered Floating Highlight Card (Asymmetric Layout Accent) -->
+<div class="hidden sm:flex absolute -bottom-5 -left-5 bg-surface-container-lowest p-space-sm rounded-xl shadow-lg items-center gap-space-sm max-w-xs">
+<div class="w-10 h-10 rounded bg-primary text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<div>
+<div class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Recent Resolution</div>
+<div class="font-label-md text-label-md text-on-surface font-semibold truncate">Water Pipeline Main #44</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Cleared in 3h 12m</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Platform Statistics Metric Ribbon -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="w-full max-w-[1600px] mx-auto px-gutter-desktop">
+<!-- Section Meta Tag -->
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Operational Analytics Overview</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Civic Performance Indicators</h2>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container-highest rounded text-on-surface font-label-sm text-label-sm uppercase tracking-wide">
+<span class="material-symbols-outlined text-[14px]">info</span>
+          Sample Demonstration Data
+        </div>
+</div>
+<!-- High-Density Metrics Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Tile 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-wider">Total Complaints</span>
+<span class="material-symbols-outlined text-[20px]">inbox</span>
+</div>
+<div class="font-tabular-stat text-tabular-stat text-on-surface mt-space-xs">14,820</div>
+<div class="flex items-center gap-space-xs mt-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<span class="font-semibold text-on-surface">100%</span>
+<span>logged on municipal ledger</span>
+</div>
+<!-- Sparkline representation -->
+<div class="w-full h-1 bg-surface-container-highest rounded-full mt-space-md overflow-hidden">
+<div class="h-full bg-primary w-full"></div>
+</div>
+</div>
+<!-- Tile 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-wider">Complaints Resolved</span>
+<span class="material-symbols-outlined text-[20px]">task_alt</span>
+</div>
+<div class="font-tabular-stat text-tabular-stat text-on-surface mt-space-xs">12,410</div>
+<div class="flex items-center gap-space-xs mt-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<span class="font-semibold text-on-surface">83.7%</span>
+<span>verified civic closure rate</span>
+</div>
+<!-- Sparkline representation -->
+<div class="w-full h-1 bg-surface-container-highest rounded-full mt-space-md overflow-hidden">
+<div class="h-full bg-primary w-[83.7%]"></div>
+</div>
+</div>
+<!-- Tile 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-wider">Currently In Progress</span>
+<span class="material-symbols-outlined text-[20px]">pending_actions</span>
+</div>
+<div class="font-tabular-stat text-tabular-stat text-on-surface mt-space-xs">1,890</div>
+<div class="flex items-center gap-space-xs mt-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<span class="font-semibold text-on-surface">12.7%</span>
+<span>active field crew dispatch</span>
+</div>
+<!-- Sparkline representation -->
+<div class="w-full h-1 bg-surface-container-highest rounded-full mt-space-md overflow-hidden">
+<div class="h-full bg-on-surface-variant w-[12.7%]"></div>
+</div>
+</div>
+<!-- Tile 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between text-on-surface-variant mb-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-wider">Avg Resolution Time</span>
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div class="font-tabular-stat text-tabular-stat text-on-surface mt-space-xs">42.6 Hrs</div>
+<div class="flex items-center gap-space-xs mt-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<span class="font-semibold text-on-surface">-4.2h</span>
+<span>improvement from last month</span>
+</div>
+<!-- Sparkline representation -->
+<div class="w-full h-1 bg-surface-container-highest rounded-full mt-space-md overflow-hidden">
+<div class="h-full bg-primary w-[70%]"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How It Works (4 Structured Steps) -->
+<section class="w-full py-space-xl px-gutter-desktop max-w-[1600px] mx-auto">
+<div class="mb-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Streamlined Municipal Lifecycle</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">How CivicCare Operates</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mt-space-xs">
+        An end-to-end transparent process connecting citizen reports directly with municipal field teams without administrative red tape.
+      </p>
+</div>
+<!-- 4-Step Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Step 01 -->
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-tabular-stat text-headline-sm text-on-surface font-mono">01</span>
+<div class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">add_location_alt</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Report an Issue</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Pin the exact coordinates on an interactive map, attach high-resolution photo evidence, and categorize the urgency.
+          </p>
+</div>
+<div class="pt-space-md mt-space-md bg-transparent">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Channel: Mobile & Web CAD</span>
+</div>
+</div>
+<!-- Step 02 -->
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-tabular-stat text-headline-sm text-on-surface font-mono">02</span>
+<div class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">alt_route</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Department Assignment</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Incident is automatically parsed and dispatched directly to the municipal authority responsible for that ward zone.
+          </p>
+</div>
+<div class="pt-space-md mt-space-md bg-transparent">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Engine: Auto-Triage Router</span>
+</div>
+</div>
+<!-- Step 03 -->
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-tabular-stat text-headline-sm text-on-surface font-mono">03</span>
+<div class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">timeline</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Transparent Tracking</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Track status progression through stage changes: Acknowledged, Crew Dispatched, Work in Progress, with zero opacity.
+          </p>
+</div>
+<div class="pt-space-md mt-space-md bg-transparent">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Telemetry: Real-Time Webhooks</span>
+</div>
+</div>
+<!-- Step 04 -->
+<div class="bg-surface-container-lowest p-space-md rounded shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-tabular-stat text-headline-sm text-on-surface font-mono">04</span>
+<div class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Verified Resolution</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Before ticket closure, inspection teams upload proof of completion, complemented by citizen satisfaction sign-off.
+          </p>
+</div>
+<div class="pt-space-md mt-space-md bg-transparent">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Protocol: Public Consensus</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Common Issue Categories Grid -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="w-full max-w-[1600px] mx-auto px-gutter-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Classified Problem Vectors</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Common Issue Categories</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md mt-space-xs md:mt-0">
+          Targeted dispatch units maintain dedicated equipment queues for rapid localized resolution.
+        </p>
+</div>
+<!-- Categories 6-Card Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Category 1 -->
+<a class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group" data-path="report-an-issue" href="#">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">traffic</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Roads & Potholes</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-normal">
+              Surface cratering, asphalt degradation, broken medians, and illegal road cuts.
+            </p>
+<span class="inline-block mt-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant">Median SLA: 48h</span>
+</div>
+</a>
+<!-- Category 2 -->
+<a class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group" data-path="report-an-issue" href="#">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">delete</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Garbage & Sanitation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-normal">
+              Overflowing community bins, uncollected residential waste, and street sweeping gaps.
+            </p>
+<span class="inline-block mt-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant">Median SLA: 24h</span>
+</div>
+</a>
+<!-- Category 3 -->
+<a class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group" data-path="report-an-issue" href="#">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">water_drop</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Water Leakage & Supply</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-normal">
+              Pipeline bursts, contaminated water lines, low pressure zones, and valve defects.
+            </p>
+<span class="inline-block mt-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant">Median SLA: 36h</span>
+</div>
+</a>
+<!-- Category 4 -->
+<a class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group" data-path="report-an-issue" href="#">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">light</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Streetlights & Electrical</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-normal">
+              Outages, exposed wiring, flickering luminaires, and damaged high-voltage poles.
+            </p>
+<span class="inline-block mt-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant">Median SLA: 18h</span>
+</div>
+</a>
+<!-- Category 5 -->
+<a class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group" data-path="report-an-issue" href="#">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">waves</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Drainage & Sewage</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-normal">
+              Clogged storm water canals, overflowing manholes, and hazardous road waterlogging.
+            </p>
+<span class="inline-block mt-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant">Median SLA: 30h</span>
+</div>
+</a>
+<!-- Category 6 -->
+<a class="bg-surface-container-lowest p-space-md rounded shadow-sm hover:shadow-md transition-all flex items-start gap-space-md group" data-path="report-an-issue" href="#">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">domain</span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Public Infrastructure</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-normal">
+              Damaged bus shelters, compromised sidewalk pavers, pedestrian guardrail collapse.
+            </p>
+<span class="inline-block mt-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant">Median SLA: 72h</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- Recent Public Complaints Feed -->
+<section class="w-full py-space-xl px-gutter-desktop max-w-[1600px] mx-auto">
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Public Verification Stream</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Recent Public Complaints</h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container hover:bg-surface-container-high rounded text-on-surface font-label-md text-label-md transition-colors" data-path="explore-issues" href="#">
+<span>View All Incidents</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Incident Table Container -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container text-on-surface-variant font-label-md text-label-md uppercase tracking-wider">
+<th class="py-space-sm px-space-md">Incident ID</th>
+<th class="py-space-sm px-space-md">Description</th>
+<th class="py-space-sm px-space-md">Category</th>
+<th class="py-space-sm px-space-md">Ward / Location</th>
+<th class="py-space-sm px-space-md">Reported</th>
+<th class="py-space-sm px-space-md text-right">Status</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-body-md text-on-surface font-body-md">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-md px-space-md font-mono font-bold text-on-surface whitespace-nowrap">
+<a class="hover:underline flex items-center gap-space-xs" data-path="track-complaint" href="#">
+<span>CC-2026-0841</span>
+<span class="material-symbols-outlined text-[14px] opacity-0 group-hover:opacity-100 transition-opacity">open_in_new</span>
+</a>
+</td>
+<td class="py-space-md px-space-md font-medium text-on-surface">
+<div class="max-w-md truncate">Deep pothole near Market Yard</div>
+</td>
+<td class="py-space-md px-space-md whitespace-nowrap">
+<span class="inline-flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">traffic</span>
+                  Roads
+                </span>
+</td>
+<td class="py-space-md px-space-md whitespace-nowrap text-on-surface-variant">
+                Solapur Central
+              </td>
+<td class="py-space-md px-space-md whitespace-nowrap text-on-surface-variant">
+                2 hours ago
+              </td>
+<td class="py-space-md px-space-md whitespace-nowrap text-right">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-surface-container-highest text-on-surface">
+                  IN PROGRESS
+                </span>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-md px-space-md font-mono font-bold text-on-surface whitespace-nowrap">
+<a class="hover:underline flex items-center gap-space-xs" data-path="track-complaint" href="#">
+<span>CC-2026-0839</span>
+<span class="material-symbols-outlined text-[14px] opacity-0 group-hover:opacity-100 transition-opacity">open_in_new</span>
+</a>
+</td>
+<td class="py-space-md px-space-md font-medium text-on-surface">
+<div class="max-w-md truncate">Overflowing waste container</div>
+</td>
+<td class="py-space-md px-space-md whitespace-nowrap">
+<span class="inline-flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">delete</span>
+                  Sanitation
+                </span>
+</td>
+<td class="py-space-md px-space-md whitespace-nowrap text-on-surface-variant">
+                Navi Peth
+              </td>
+<td class="py-space-md px-space-md whitespace-nowrap text-on-surface-variant">
+                5 hours ago
+              </td>
+<td class="py-space-md px-space-md whitespace-nowrap text-right">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-primary text-on-primary">
+                  RESOLVED
+                </span>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-md px-space-md font-mono font-bold text-on-surface whitespace-nowrap">
+<a class="hover:underline flex items-center gap-space-xs" data-path="track-complaint" href="#">
+<span>CC-2026-0835</span>
+<span class="material-symbols-outlined text-[14px] opacity-0 group-hover:opacity-100 transition-opacity">open_in_new</span>
+</a>
+</td>
+<td class="py-space-md px-space-md font-medium text-on-surface">
+<div class="max-w-md truncate">Non-functional streetlight row</div>
+</td>
+<td class="py-space-md px-space-md whitespace-nowrap">
+<span class="inline-flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">light</span>
+                  Electrical
+                </span>
+</td>
+<td class="py-space-md px-space-md whitespace-nowrap text-on-surface-variant">
+                Railway Lines
+              </td>
+<td class="py-space-md px-space-md whitespace-nowrap text-on-surface-variant">
+                1 day ago
+              </td>
+<td class="py-space-md px-space-md whitespace-nowrap text-right">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-surface-container text-on-surface-variant">
+                  UNDER REVIEW
+                </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Table Micro-Footer -->
+<div class="p-space-sm bg-surface-container-low flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Showing latest 3 authenticated incident records</span>
+<a class="font-label-sm text-label-sm uppercase text-on-surface hover:underline" data-path="explore-issues" href="#">Explore full audit log →</a>
+</div>
+</div>
+</section>
+<!-- Civic Engagement Visual Banner -->
+<section class="w-full px-gutter-desktop max-w-[1600px] mx-auto pb-space-xl">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="space-y-space-xs max-w-xl">
+<h3 class="font-headline-md text-headline-md text-on-surface">Notice a hazard in your neighborhood?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Prompt reporting allows municipal algorithms to group related complaints, speeding dispatch for roads, broken lights, and water emergencies.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm w-full md:w-auto shrink-0">
+<a class="w-full md:w-auto inline-flex items-center justify-center h-10 px-space-md bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md rounded shadow-sm transition-all" data-path="report-an-issue" href="#">
+          Submit Incident Report
+        </a>
+</div>
+</div>
+</section>
+<!-- Academic Disclaimer Banner -->
+<section class="w-full bg-surface-container py-space-md">
+<div class="w-full max-w-[1600px] mx-auto px-gutter-desktop">
+<div class="bg-surface-container-lowest p-space-md rounded flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0">school</span>
+<div>
+<p class="font-label-md text-label-md text-on-surface uppercase">Academic Research & Prototyping Disclaimer</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              CivicCare is an academic demonstration project (DBMS / EDA / FSD-1) and is not an official municipal emergency dispatch service. Live emergency services should be contacted via standard regional emergency numbers.
+            </p>
+</div>
+</div>
+<div class="shrink-0">
+<span class="inline-flex items-center px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-label-sm uppercase">
+            STATUS: DEMO ENVIRONMENT
+          </span>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-xl"><div class="w-full max-w-[1600px] mx-auto px-gutter-desktop"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-lg mb-space-xl"><div class="md:col-span-2 space-y-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface uppercase">CivicCare</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Smart Public Complaint Management & Analytics Platform. High-efficiency reporting, transparent ticket tracking, and municipal triage performance intelligence.</p></div><div><h4 class="font-label-md text-label-md text-on-surface uppercase mb-space-sm">Platform</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" data-path="about-civiccare" href="#">About CivicCare</a></li><li><a class="hover:text-on-surface transition-colors" data-path="how-it-works" href="#">How It Works</a></li><li><a class="hover:text-on-surface transition-colors" data-path="help-center" href="#">Help Center</a></li></ul></div><div><h4 class="font-label-md text-label-md text-on-surface uppercase mb-space-sm">Compliance & Legal</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a></li><li><a class="hover:text-on-surface transition-colors" data-path="terms-of-use" href="#">Terms of Use</a></li></ul></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 CivicCare Platform. All rights reserved.</p><p class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-space-sm py-space-xs rounded">CivicCare is an academic demonstration project (DBMS / EDA / FSD-1) and is not an official municipal service.</p></div></div></footer></body></html>

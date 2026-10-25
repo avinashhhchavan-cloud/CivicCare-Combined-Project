@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none" role="img" aria-label="CivicCare Symbol">
+  <!-- CivicCare Standalone Geometric Brand Mark -->
+  <!-- Monochromatic, architectural geometry combining a precision location marker, city skyline towers, and civic gateway -->
+  <path fill="#000000" fill-rule="evenodd" clip-rule="evenodd" d="
+    M60 6
+    C32.3858 6 10 28.3858 10 56
+    C10 74.2 26.5 95 56.2 112.8
+    C58.5 114.2 61.5 114.2 63.8 112.8
+    C93.5 95 110 74.2 110 56
+    C110 28.3858 87.6142 6 60 6
+    ZM48 30
+    H72
+    V42
+    H84
+    V74
+    H74
+    V64
+    H68
+    V74
+    H52
+    V64
+    H46
+    V74
+    H36
+    V42
+    H48
+    V30
+    ZM54 36
+    H66
+    V46
+    H54
+    V36
+    ZM42 48
+    H48
+    V56
+    H42
+    V48
+    ZM72 48
+    H78
+    V56
+    H72
+    V48
+    ZM54 52
+    H66
+    V60
+    H54
+    V52
+    ZM60 84
+    L72 94
+    H48
+    L60 84
+    Z
+  "/>
+</svg>
