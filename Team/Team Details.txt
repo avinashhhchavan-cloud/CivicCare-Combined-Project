@@ -1,0 +1,8 @@
+CivicCare Project Team & Work Distribution
+
+Team Name - RedField
+Team Members
+1 - Avinash Chavan - SCFU425007 - Backend And Databses
+2 - Parth Sutar - SCFU425025 - EDADV Datasets and Data Visualization 
+3 - Karim Maujwar - SCFU425027 - Frontend Design And Development
+4 - Yuvraj Gaur - SCFU425029 - Datasets and Designs For Frontend Development

@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 // Layouts
 import PublicLayout from './layouts/PublicLayout';
+import TeamPage from './pages/public/TeamPage';
 import AdminLayout from './layouts/AdminLayout';
 
 // Public Pages
@@ -43,6 +44,7 @@ export default function App() {
         <Route path="citizen/complaints" element={<MyComplaintsPage />} />
         <Route path="citizen/profile" element={<CitizenProfilePage />} />
         <Route path="404" element={<NotFoundPage />} />
+        <Route path="team" element={<TeamPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
 

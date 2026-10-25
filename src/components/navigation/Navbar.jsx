@@ -11,6 +11,7 @@ export default function Navbar() {
     { name: 'Track Complaint', path: '/track' },
     { name: 'Explore Issues', path: '/explore' },
     { name: 'Analytics', path: '/analytics' },
+    { name: 'Team', path: '/team' },
     { name: 'Admin Access', path: '/admin' }
   ];
 

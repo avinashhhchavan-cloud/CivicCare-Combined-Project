@@ -58,5 +58,19 @@ npm run preview
 3. Ensure `npm run lint` passes (if linting is added).
 4. Open a Pull Request.
 
+## Team
+
+| Name | Role | Responsibilities |
+|------|------|-------------------|
+| Aarav Sharma | Project Lead & UI/UX Architect | Product vision, Design system, Stakeholder communication |
+| Priya Patel | Full‑Stack Engineer | API integration, State management, Performance optimization |
+| Rohan Iyer | Backend Engineer | Database schema, Auth & security, Server‑side logic |
+| Sneha Mahajan | DevOps & CI/CD | Infrastructure, Deploy pipeline, Monitoring & alerts |
+
+# Team Page
+
+The **Team** page provides an overview of the team members and their responsibilities.
+Access it at: [/team](http://localhost:5173/team) (during development) or the deployed site.
+
 ## License
 MIT © CivicCare Team
